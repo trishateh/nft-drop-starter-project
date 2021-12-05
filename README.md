@@ -1,15 +1,14 @@
-# buildspace Solana NFT Drop Project
-### Welcome 👋
-To get started with this course, clone this repo and follow these commands:
+# Solana NFT Drop Project
 
-1. cd into the `app` folder
-2. Run `npm install` at the root of your directory
-3. Run `npm run start` to start the project
-4. Start coding!
+This is a web app on Solana built with Metaplex that lets users connect their wallet, click mint, and receive a one of a kind NFT from my handcrafted collection ("Big Nose Fluffs Solana Season #1 NFT Collection") in their wallet. 
 
-### What is the .vscode Folder?
-If you use VSCode to build your app, we included a list of suggested extensions that will help you build this project! Once you open this project in VSCode, you will see a popup asking if you want to download the recommended extensions :).
+Why "Big Nose Fluffs" ? Because animals with big noses are really adorable!
 
-### Questions?
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/projects/CO77556be5-25e9-49dd-a799-91a2fc29520e) and link your Discord account so you can get access to helpful channels and your instructor!
+Still don't believe me? :)
 
+Check it out at this link:
+
+https://nft-drop-starter-project-neon.vercel.app
+
+
+This is a Buildspace project.

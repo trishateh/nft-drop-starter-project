@@ -11,4 +11,4 @@ Check it out at this link:
 https://nft-drop-starter-project-neon.vercel.app
 
 
-This is a Buildspace project.
+

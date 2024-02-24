@@ -80,14 +80,6 @@ const CandyMachine = ({ walletAddress }) => {
       goLiveDateTimeString,
     });
 
-    console.log({
-      itemsAvailable,
-      itemsRedeemed,
-      itemsRemaining,
-      goLiveData,
-      goLiveDateTimeString,
-    });
-
     setIsLoadingMints(true);
 
     const data = await fetchHashTable(
@@ -99,7 +91,6 @@ const CandyMachine = ({ walletAddress }) => {
         //Get URI
         const response = await fetch(mint.data.uri);
         const parse = await response.json();
-        console.log('Past Minted NFT', mint)
 
         // Avoid adding the same mint twice.
         if (!mints.find((mint) => mint === parse.image)) {

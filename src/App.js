@@ -20,7 +20,6 @@ const App = () => {
           console.log('Phantom wallet found!');
 
           const response = await solana.connect({ onlyIfTrusted: true });
-          console.log('Connected with Public Key:', response.publicKey.toString());
 
           setWalletAddress(response.publicKey.toString());
         }
@@ -37,7 +36,7 @@ const App = () => {
 
     if (solana) {
       const response =  await solana.connect();
-      console.log('Connected with Public Key:', response.publicKey.toString());
+
       setWalletAddress(response.publicKey.toString());
     }
   };
@@ -47,7 +46,7 @@ const App = () => {
       className="cta-button connect-wallet-button"
       onClick={connectWallet}
     >
-      Connect to Wallet
+      Connect Phantom Wallet
     </button>
   );
 
@@ -63,7 +62,7 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">🍭 Candy Drop</p>
+          <p className="header">🍭 Solana Candy Drop</p>
           <p className="sub-text">NFT drop machine with fair mint</p>
           {!walletAddress && renderNotConnectedContainer()}
         </div>
